@@ -1,5 +1,6 @@
 from fractions import Fraction,gcd
-from Crypto.Util.number import bytes_to_long,long_to_bytes
+from Crypto.Util.number import bytes_to_long as b2l
+from Crypto.Util.number import long_to_bytes as l2b
 import socket
 import telnetlib
 import string

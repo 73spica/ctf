@@ -6,7 +6,7 @@ import telnetlib
 import string
 import gmpy
 
-readable = string.ascii_letters+string.digits+string.punctuation
+readable = string.digits+string.ascii_letters+string.punctuation
 
 # ======== Interactive shell ========
 def shell(s):

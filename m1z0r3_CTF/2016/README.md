@@ -3,6 +3,11 @@
 * It's CTF in team "m1z0r3".
 * We make a problem by ourselves and solve the problem one another.
 
+## Files
+* problem.py -> Source code distributed.
+* server -> Server side program.
+* solver.py -> Solver
+
 ## Problem I made.
 ### Decrypt it (Crypto 200)
 * Please decrypt it.

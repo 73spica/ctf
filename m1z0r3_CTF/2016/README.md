@@ -9,6 +9,6 @@
 * I provide IP and PORT(I used aws).
 
 ## Overview
-![problem](https://github.com/73spica/ctf/tree/master/m1z0r3_CTF/2016/overview/problem.png)
+![problem](https://github.com/73spica/ctf/blob/master/m1z0r3_CTF/2016/overview/problem.png)
 
-![decrypter](https://github.com/73spica/ctf/tree/master/m1z0r3_CTF/2016/overview/decrypter.png)
+![decrypter](https://github.com/73spica/ctf/blob/master/m1z0r3_CTF/2016/overview/decrypter.png)

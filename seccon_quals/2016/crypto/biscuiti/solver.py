@@ -17,7 +17,7 @@ def pad_oracle(c,p):
     }
     in_state = ""
     attack_block = ""
-    for j in tqdm(xrange(16)):
+    for j in xrange(16):
         # print attack_block
         for i in xrange(1,256):
             exp_pass = b64encode(("a"*(31-j))+chr(i)+attack_block+c)

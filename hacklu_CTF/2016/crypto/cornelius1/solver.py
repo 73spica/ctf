@@ -24,9 +24,11 @@ def brute(key):
     return key+alpha[0]
 
 alpha = readable
+# alpha = string.printable
 
 def main():
     nowans = 'flag:'
+    print "==== Attack Start ===="
     while nowans!= 0:
       nowans = brute(nowans)
       print nowans

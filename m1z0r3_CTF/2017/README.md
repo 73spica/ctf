@@ -15,6 +15,8 @@
 ### Overview
 ![problem](https://github.com/73spica/ctf/blob/master/m1z0r3_CTF/2017/overview/server.png)
 
+* In a word, It is "LSB Oracle Attack for ElGamal Encryption".
+
 ## Reference
 * https://ctftime.org/task/4876
 * http://73spica.hatenablog.com/entry/2017/11/16/031602

@@ -10,7 +10,8 @@ from Crypto.Util.number import bytes_to_long as b2l
 from Crypto.Util.number import long_to_bytes as l2b
 from random import randint
 
-MAX_TRIES = 1024
+MAX_TRIES = 2000
+BITS = 1024
 
 welcome = "Welcome to My Crypto System!!\n"
 menu = "What would you like to do:\n\t[1]: Encryption,\n\t[2]: Decryption,\n\t[3]: Get flag cipher,\n\t[4]: Get public key,\n\t[5]: Exit.\n> "
@@ -78,7 +79,7 @@ class B64Handler(SocketServer.BaseRequestHandler):
     def setup(self):
         self.tries = 0
         self.crypto = MyCrypto()
-        self.crypto.genKey(512)
+        self.crypto.genKey(BITS)
         self.enc_flag = self.crypto.enc(flag)
         #self.crypto.pubkey.show()
         #print self.crypto.seckey
